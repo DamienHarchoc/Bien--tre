@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+}
+header {
+    color: aliceblue;
+    font-weight: bold;
+}
+.imageHead {
+    background-image: url(../img/bannière4.png);
+    background-size: cover;
+    background-position: top;
+    height: 250px;
+}
+.colorth{
+    text-decoration: none;
+    color: aliceblue;
+}
+/**Navbar--------------**/
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-item {
+    padding-left: 50px;
+}
+/**Carousel--------------**/
+.carousel {
+    width: 550px;
+    justify-content: center;
+}
+/**Réseaux sociaux--------------**/
+.colorfacebook {
+    color: rgb(0, 0, 138);
+    font-size: 25px;
+}
+.colorinstagram {
+    color: rgb(214, 28, 3);
+    font-size: 25px;
+}
+.colortwitter {
+    color: rgb(0, 138, 218);
+    font-size: 25px;
+}
+/**Footer--------------**/
+footer {
+   background-color: #e5eee2;
+}
+.colorbdf {
+    border-top: 1px solid #7e8181;
+}
+.pdgLogo {
+    padding-right: 10px;
+}
+.pdgLogo2 {
+    padding-left: 10px;
+}
+.shadowCard {
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+.btnUp{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btnUp:hover {
+transform: translateY(-5px);
+    box-shadow: 0px 10px 40px 0px #b4b4b4;;
+}
+.navUp{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.navUp:hover {
+transform: translateY(-5px);
+}
+
+.registrationForm input, .registrationForm select{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ece4eb;
+}
+
+.registrationForm input:hover, .registrationForm select:hover{
+    border-bottom: 2px solid #e411a5;
+}
+
+.registrationForm input:focus, .registrationForm select:focus{
+    box-shadow: none;
+    border-bottom: 2px solid #e411a5;
+}
+.btnRegister {
+    width: 110px;
+}
+#scrollHelp {
+    position: -webkit-sticky;
+     position: sticky;
+     top: 300px;
+     text-align: right;
+     padding-right: 25px;
+}
+
+.forScroll {
+    color: black;
+}
+.sizeNew {
+    width: 80%;
+}
+.textNew {
+    font-size: 15px;
+}
+
+@media screen AND (max-width:500px){
+    .sizeNew {
+        width: 90%;
+    }
+}
+.colorb {
+    background-color:rgb(246, 102, 126);
+    color: white;
+    font-weight: bold;
+}
+.text-justify {
+    text-align: justify;
+}
+.programmedItem, .speaker {
+    font-weight: bold;
+    text-align: justify;
+}
+.btnlev{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btnlev:hover {
+transform: translateY(-5px);
+    box-shadow: 0px 10px 40px 0px #e905cb;;
+}
+.validated {
+    color:green;
+}
+.invalidated {
+    color: red;
+}
